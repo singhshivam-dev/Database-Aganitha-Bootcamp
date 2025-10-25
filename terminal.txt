@@ -1,0 +1,11 @@
+pnpm init -y
+
+pnpm add typescript ts-node @types/node pg
+pnpm tsc --init
+
+// to run src files
+pnpm ts-node src/index.ts
+
+
+// PSQL
+psql -U your_pg_user -d your_db_name
